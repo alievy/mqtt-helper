@@ -1,0 +1,9 @@
+[package]
+name = "mqtt-helper"
+version = "1.0.1"
+authors = ["Aliev Yamanee <aliev.yamanee@gmail.com.com>"]
+edition = "2018"
+
+[dependencies]
+mosquitto-mqtt = { git = "https://github.com/alievy/mosquitto-mqtt-rust.git", branch = "main"}
+log = "0.4.*"
